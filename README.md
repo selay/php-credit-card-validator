@@ -1,25 +1,19 @@
 # PHP Credit Card Validator
 
-[![Build Status](https://travis-ci.com/freelancehunt/php-credit-card-validator.svg?branch=master)](https://travis-ci.com/freelancehunt/php-credit-card-validator) 
-[![codecov](https://codecov.io/gh/freelancehunt/php-credit-card-validator/branch/master/graph/badge.svg)](https://codecov.io/gh/freelancehunt/php-credit-card-validator) 
-![PHP from Packagist](https://img.shields.io/packagist/php-v/freelancehunt/php-credit-card-validator.svg)
-[![Packagist](https://img.shields.io/packagist/v/freelancehunt/php-credit-card-validator.svg)](https://packagist.org/packages/freelancehunt/php-credit-card-validator)
-[![Packagist](https://img.shields.io/packagist/dt/freelancehunt/php-credit-card-validator.svg)](https://packagist.org/packages/freelancehunt/php-credit-card-validator)
-[![License](https://img.shields.io/github/license/freelancehunt/php-credit-card-validator.svg)](https://coveralls.io/github/freelancehunt/php-credit-card-validator?branch=master) 
 
 Validates popular debit and credit cards numbers against regular expressions and Luhn algorithm.
 Also validates the CVC and the expiration date.
 
-Since original project seems to be abandoned, we plan to maintain this fork. 
+Since original project seems to be abandoned, this fork is made to support other existing repos with compatible namespaces such as rap2hpoutre/laravel-credit-card-validator which also appears to be abondoned. I forked it to selay/laravel-credit-card-validator
 
 # Requirements
-PHP 7.1+. We don't plan to support [EOL](http://php.net/supported-versions.php) PHP versions.  
+PHP 7.0+. We don't plan to support
 
 Require the package in `composer.json`
 
 ```json
 "require": {
-    "freelancehunt/php-credit-card-validator": "3.*"
+    "selay/php-credit-card-validator": "3.*"
 },
 ```
 ## Usage

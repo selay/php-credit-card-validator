@@ -1,17 +1,16 @@
 <?php
 
-namespace Freelancehunt\Validators;
 
 /**
- * Class CreditCard.
- * Validates popular debit and credit cards' numbers against regular expressions and Luhn algorithm.
+ * Validates popular debit and credit cards numbers against regular expressions and Luhn algorithm.
  * Also validates the CVC and the expiration date.
- *
- * @package   Freelancehunt\CreditCardValidator
  *
  * @author    Ignacio de Tomás <nacho@inacho.es>
  * @copyright 2014 Ignacio de Tomás (http://inacho.es)
  */
+
+namespace Inacho;
+
 class CreditCard
 {
     public const TYPE_AMEX               = 'amex';
