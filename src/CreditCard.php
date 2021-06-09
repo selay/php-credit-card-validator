@@ -8,9 +8,7 @@
  * @author    Ignacio de Tomás <nacho@inacho.es>
  * @copyright 2014 Ignacio de Tomás (http://inacho.es)
  */
-
 namespace Inacho;
-
 class CreditCard
 {
     public const TYPE_AMEX               = 'amex';
