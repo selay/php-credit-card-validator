@@ -7,13 +7,13 @@ Also validates the CVC and the expiration date.
 Since original project seems to be abandoned, this fork is made to support other existing repos with compatible namespaces such as rap2hpoutre/laravel-credit-card-validator which also appears to be abondoned. I forked it to selay/laravel-credit-card-validator
 
 # Requirements
-PHP 7.0+. We don't plan to support
+PHP 7.0+. 
 
 Require the package in `composer.json`
 
 ```json
 "require": {
-    "selay/php-credit-card-validator": "3.*"
+    "selay/php-credit-card-validator": "4.*"
 },
 ```
 ## Usage
